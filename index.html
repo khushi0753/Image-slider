@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider Project</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3094/3094300.png" type="image/x-icon">
+</head>
+<body>
+    <div class="slider-container">
+        <h1>IMAGE SLIDER | SK </h1>
+        
+        <!-- Main slider section -->
+        <div class="slider">
+            <!-- Images will be inserted here by JavaScript -->
+        </div>
+        
+        <!-- Navigation controls -->
+        <div class="controls">
+            <button class="prev-btn" aria-label="Previous image">&#10094;</button>
+            <div class="dots-container"></div>
+            <button class="next-btn" aria-label="Next image">&#10095;</button>
+        </div>
+        
+        <!-- Auto-play toggle -->
+        <div class="auto-play">
+            <label for="autoplay-toggle">Auto-play:</label>
+            <input type="checkbox" id="autoplay-toggle" checked>
+            <span class="interval-controls">
+                <label>Interval (seconds):</label>
+                <input type="number" min="1" max="10" value="3" class="interval-input">
+            </span>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
